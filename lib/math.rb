@@ -14,7 +14,7 @@ def multiplication(num1, num2)
 num1 * num2
 end
 
-def modulo(num1, num2)
+def modulo(num1, num2) #this method should only work for integer numbers
 num1 - (num1 / num2) * num2
 end
 
